@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="web/squad.xsl" ?>
+<!DOCTYPE squad SYSTEM "squad.dtd">
+<squad nick="A">
+    <name>Gruppe Adler</name>
+    <email>kontakt@gruppe-adler.de</email>
+    <web>http://www.gruppe-adler.de</web>
+    <picture>gruppe-adler.paa</picture>
+</squad>
