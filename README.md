@@ -18,4 +18,4 @@ The `/usr/src/app/resources` volume holds the following files/directories:
  - `web/`-directory: Contains next to the `squad.xsl` ([see here](https://community.bistudio.com/wiki/squad.xml#How_to_publish_it)) everything that is needed for the web representation of the Squad-XML
 
 ## Development
-To setup a development enviornment jsut clone this repository, install all dependencies with `npm install` and then start the development server with `npm run serve`.
+To setup a development enviornment just clone this repository, install all dependencies with `npm install` and then start the development server with `npm run serve`.
