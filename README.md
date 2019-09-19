@@ -13,4 +13,4 @@ The `/usr/src/app/resources` volume holds the following files/directories:
  - `logo.paa`: paa file of the squad logo (duh!)
  - `squad.dtd`: mandatory file ([see here](https://community.bistudio.com/wiki/squad.xml#How_to_publish_it))
  - `template.xml`: Which is the squad.xml but with no members (because they are generated dynamically)
- - `web/`-directory: Contains next to the `squad.xsl` (see here) everything that is needed for that web representation of the Squad-XML
+ - `web/`-directory: Contains next to the `squad.xsl` ([see here](https://community.bistudio.com/wiki/squad.xml#How_to_publish_it)) everything that is needed for that web representation of the Squad-XML
