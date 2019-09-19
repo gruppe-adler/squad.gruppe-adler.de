@@ -2,7 +2,7 @@
 
 Gruppe Adler Squad-XML, which is dynamically generated with data from [`sso.gruppe-adler.de`](https://github.com/gruppe-adler/sso.gruppe-adler.de).
 
-The `squad.xml` is hosted directly in the root with no filename needed. (So just add `https://squad.gruppe-adler.de` to your profile)
+The `squad.xml` is hosted directly in the root with no filename needed. (So just add `https://squad.gruppe-adler.de` to your arma profile)
 
 ## Setup
 A docker image is available on [Docker Hub](https://hub.docker.com/r/gruppeadler/squad).  
