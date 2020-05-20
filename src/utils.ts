@@ -68,5 +68,7 @@ export function userToXML(user: User) {
     <member id="${user.steamId}" nick="${user.username}">
         <name>${user.username}</name>
         <email>${user.username}@gruppe-adler.de</email>
+        <icq>N/A</icq>
+        <remark>N/A</remark>
     </member>`;
 }
