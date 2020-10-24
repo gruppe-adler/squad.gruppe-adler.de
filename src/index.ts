@@ -16,10 +16,9 @@ app.get('/', async (req: Request, res: Response) => {
     const membersPromise = fetchAdlers();
     let content = readFileSync(join(__dirname, '../resources', 'template.xml'), 'UTF-8');
 
-    const members = (await membersPromise).map(userToXML).join();
+    const members = (await membersPromise).map(userToXML).join('');
 
-    content = content.replace('</squad>', `${members}
-    </squad>`);
+    content = content.replace('</squad>', `${members}\n</squad>`);
 
     res.send(content);
 });
