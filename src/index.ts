@@ -11,7 +11,7 @@ const app = express();
 // logger
 app.use(morgan('short'));
 
-app.get('/', async (req: Request, res: Response) => {
+app.get('/squad.xml', async (req: Request, res: Response) => {
     res.set('Content-Type', 'application/xml; charset=utf-8');
     const membersPromise = fetchAdlers();
     let content = readFileSync(join(__dirname, '../resources', 'template.xml'), 'UTF-8');
