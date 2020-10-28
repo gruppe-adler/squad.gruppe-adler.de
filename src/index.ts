@@ -11,6 +11,8 @@ const app = express();
 // logger
 app.use(morgan('short'));
 
+app.get('/', (req, res) => { res.redirect(301, '/squad.xml'); });
+
 app.get('/squad.xml', async (req: Request, res: Response) => {
     res.set('Content-Type', 'application/xml; charset=utf-8');
     const membersPromise = fetchAdlers();
